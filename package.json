@@ -1,0 +1,26 @@
+{
+  "name": "icd10-scrapper",
+  "version": "0.0.0",
+  "main": "scrape.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx scrape.ts"
+  },
+  "author": "Arkapravo-Ghosh",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@types/node": "^20.14.8",
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.13.1"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "http": "^0.0.1-security",
+    "tsx": "^4.15.7"
+  }
+}
